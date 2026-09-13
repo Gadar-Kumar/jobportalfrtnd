@@ -1,0 +1,16 @@
+src/
+ ├── components/
+ │     ├── Navbar.jsx
+ │     ├── JobCard.jsx
+ │     ├── SearchBar.jsx
+ ├── pages/
+ │     ├── Home.jsx
+ │     ├── Jobs.jsx
+ │     ├── Login.jsx
+ ├── App.jsx
+ ├── index.js
+ ├── api/
+ │     └── axiosInstance.js
+ ├── styles/
+ │     └── index.css
+.env

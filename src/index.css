@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+.scrollbar-hide::-webkit-scrollbar {
+  width: 0px;     /* Chrome, Edge, Safari */
+  height: 0px;    /* horizontal scrollbar agar ho to */
+}

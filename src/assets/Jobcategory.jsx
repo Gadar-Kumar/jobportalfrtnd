@@ -1,0 +1,41 @@
+import { Code, Monitor, BarChart2, DollarSign, Users, Briefcase, ShoppingCart, Globe, Cpu, BookOpen, Heart, Truck, PieChart, Globe2, Music, Film, Smartphone, Shield, TrendingUp } from "lucide-react";
+
+
+ const jobCategories = [
+  { id: 1, title: "Software Development", slug: "software-development", icon: <Code size={36} /> },
+  { id: 2, title: "Frontend Developer", slug: "frontend-developer", icon: <Cpu size={36} /> },
+  { id: 4, title: "Full Stack Developer", slug: "fullstack-developer", icon: <Code size={36} /> },
+  { id: 5, title: "UI/UX Design", slug: "ui-ux-design", icon: <Monitor size={36} /> },
+  { id: 6, title: "Graphic Design", slug: "graphic-design", icon: <BookOpen size={36} /> },
+  { id: 7, title: "Marketing", slug: "marketing", icon: <BarChart2 size={36} /> },
+  { id: 8, title: "Digital Marketing", slug: "digital-marketing", icon: <TrendingUp size={36} /> },
+  { id: 9, title: "Finance", slug: "finance", icon: <DollarSign size={36} /> },
+  { id: 10, title: "Accounting", slug: "accounting", icon: <PieChart size={36} /> },
+  { id: 11, title: "Human Resources", slug: "human-resources", icon: <Users size={36} /> },
+  { id: 13, title: "Management", slug: "management", icon: <Briefcase size={36} /> },
+  { id: 14, title: "Sales", slug: "sales", icon: <ShoppingCart size={36} /> },
+  { id: 15, title: "International Jobs", slug: "international-jobs", icon: <Globe size={36} /> },
+  { id: 16, title: "Logistics", slug: "logistics", icon: <Truck size={36} /> },
+  { id: 17, title: "Healthcare", slug: "healthcare", icon: <Heart size={36} /> },
+  { id: 18, title: "Music & Entertainment", slug: "music-entertainment", icon: <Music size={36} /> },
+  { id: 19, title: "Film & TV", slug: "film-tv", icon: <Film size={36} /> },
+  { id: 20, title: "Mobile Development", slug: "mobile-development", icon: <Smartphone size={36} /> },
+  { id: 21, title: "Cyber Security", slug: "cyber-security", icon: <Shield size={36} /> },
+  { id: 22, title: "Business Analytics", slug: "business-analytics", icon: <BarChart2 size={36} /> },
+  { id: 24, title: "Sales Management", slug: "sales-management", icon: <ShoppingCart size={36} /> },
+  { id: 25, title: "Education & Training", slug: "education-training", icon: <BookOpen size={36} /> },
+  { id: 26, title: "Customer Support", slug: "customer-support", icon: <Users size={36} /> },
+  { id: 28, title: "AI & Machine Learning", slug: "ai-machine-learning", icon: <Cpu size={36} /> },
+  { id: 29, title: "Blockchain", slug: "blockchain", icon: <Globe2 size={36} /> },
+  { id: 30, title: "Content Writing", slug: "content-writing", icon: <BookOpen size={36} /> },
+  { id: 31, title: "Copywriting", slug: "copywriting", icon: <BookOpen size={36} /> },
+  { id: 32, title: "Public Relations", slug: "public-relations", icon: <Users size={36} /> },
+  { id: 33, title: "Event Management", slug: "event-management", icon: <Briefcase size={36} /> },
+  { id: 34, title: "Legal", slug: "legal", icon: <Shield size={36} /> },
+  { id: 36, title: "Hospitality", slug: "hospitality", icon: <Heart size={36} /> },
+  { id: 37, title: "Travel & Tourism", slug: "travel-tourism", icon: <Globe size={36} /> },
+  { id: 38, title: "Research & Development", slug: "r-d", icon: <Cpu size={36} /> },
+  { id: 40, title: "Consulting",  slug: "consulting", icon: <Briefcase size={36} /> ,},
+];
+
+export default jobCategories
